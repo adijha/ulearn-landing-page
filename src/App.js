@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import Header from "./components/header/Header";
+import ProgressBar from "./components/circularProgressBar/ProgressBar";
+import Hero from "./components/Hero/Hero";
+import Calendar from "./components/calendar/Calendar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<Header />
+      <ProgressBar/>
+      <Hero/>
+			<Calendar/>
+      <div style={{height:'1000px'}}  />
+		</div>
+	);
 }
 
 export default App;
