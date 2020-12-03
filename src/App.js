@@ -8,6 +8,7 @@ import Grid from "./components/grid/Grid";
 import CallToAction from "./components/CTA/CallToAction";
 import Footer from "./components/footer/Footer";
 import SheduleTime from "./components/timeShedule/SheduleTime";
+import LinearProgressBar from "./components/linearProgressbar/LinearProgressBar";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Header />
 			<ProgressBar />
 			<Hero />
+			<LinearProgressBar />
 			<Calendar />
 			<Toggle />
 			<SheduleTime />
