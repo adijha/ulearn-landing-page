@@ -1,0 +1,38 @@
+.toggle-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	.toggle-inner {
+		width: 360px;
+		align-self: center;
+		.toggle-desc {
+			font-size: 20px;
+			margin-top: 0;
+		}
+
+		.toggle-btn-container {
+			border-radius: 8px;
+			height: 50px;
+			background-color: #f9f9fc;
+			display: flex;
+			padding-block: 8px;
+			justify-content: space-evenly;
+			margin-top: 20px;
+			.toggle-btn-active {
+				color: #009dfe;
+				background-color: #ffffff;
+			}
+			.toggle-btn {
+				border-radius: 8px;
+				width: 150px;
+				padding: 10px;
+				font-weight: bold;
+        height: 32px;
+        
+			}
+			.toggle-btn-inactive {
+				background-color: #f9f9fc;
+			}
+		}
+	}
+}
