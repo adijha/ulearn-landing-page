@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Calendar from "./components/calendar/Calendar";
 import Toggle from "./components/toggle/Toggle";
 import Grid from "./components/grid/Grid";
+import CallToAction from "./components/CTA/CallToAction";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<Calendar />
 			<Toggle />
 			<Grid />
+			<CallToAction/>
 			<div style={{ height: "300px" }} />
 		</div>
 	);
