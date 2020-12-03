@@ -4,18 +4,19 @@ import ProgressBar from "./components/circularProgressBar/ProgressBar";
 import Hero from "./components/Hero/Hero";
 import Calendar from "./components/calendar/Calendar";
 import Toggle from "./components/toggle/Toggle";
+import Grid from "./components/grid/Grid";
 
 function App() {
 	return (
-		<div >
+		<div>
 			<Header />
-      <ProgressBar/>
-      
-			<Hero/>
-			<Calendar/>
-			<Toggle/>
+			<ProgressBar />
 
-      <div style={{height:'300px'}}  />
+			<Hero />
+			<Calendar />
+			<Toggle />
+			<Grid />
+			<div style={{ height: "300px" }} />
 		</div>
 	);
 }
