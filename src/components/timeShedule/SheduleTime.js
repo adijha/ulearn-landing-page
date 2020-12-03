@@ -16,19 +16,11 @@ export default function SheduleTime() {
 				الأسعار
 			</div>
 			<div
-				style={{
-					display: "flex",
-					justifyContent: "flex-end",
-					margin: "20px",
-				}}
+				className="shedule-radios"
 			>
 				{["ساعة يوميا", "ساعتين يوميا"].map((i) => (
 					<div
-						style={{
-							display: "flex",
-							alignItems: "center",
-							marginLeft: "20px",
-						}}
+					className="shedule-radio"
 					>
 						<p style={{ fontSize: "18px" }}>{i}</p>
 						<input type="radio" id={i} value={i}></input>
