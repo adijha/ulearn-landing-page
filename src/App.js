@@ -7,20 +7,21 @@ import Toggle from "./components/toggle/Toggle";
 import Grid from "./components/grid/Grid";
 import CallToAction from "./components/CTA/CallToAction";
 import Footer from "./components/footer/Footer";
+import SheduleTime from "./components/timeShedule/SheduleTime";
 
 function App() {
 	return (
-		<div>
+		<>
 			<Header />
 			<ProgressBar />
-
 			<Hero />
 			<Calendar />
 			<Toggle />
+			<SheduleTime />
 			<Grid />
-			<CallToAction/>
-			<Footer/>
-		</div>
+			<CallToAction />
+			<Footer />
+		</>
 	);
 }
 
