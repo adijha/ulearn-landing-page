@@ -20,8 +20,12 @@
 	.linear-progressbar {
 		margin-block: 15vw;
 		align-items: center;
-		padding-bottom: 50px;
+		// padding-bottom: 50px;
 		overflow-x: scroll;
+
+    &::-webkit-scrollbar {
+      display: none !important ;
+    }
 		.linear-progress {
 			border: 1px solid #eaebf7;
 			border-radius: 70px;
