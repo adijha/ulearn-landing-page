@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: space-evenly;
 	padding-block: 100px;
-	background-repeat: no-repeat;
+	// background-repeat: no-repeat;
 	.cta-content {
 		text-align: right;
 		display: flex;
@@ -42,18 +42,23 @@
 }
 @media only screen and (max-width: 768px) {
 	.cta-container {
-		background-image: url("./blue-portrait.png");
+		background-image: url("./blue-bg-phone.png");
 		padding-block: 70px;
 		flex-direction: column-reverse;
 		overflow: hidden;
 		.cta-content {
 			text-align: center;
 			.cta-title {
+				font-size: 35px;
 			}
 			.cta-description {
+				font-size: 20px;
 			}
 			.cta-button {
 				align-self: center;
+				padding: 20px;
+				font-size: 22px;
+				width: 175px;
 			}
 		}
 		.cta-mac {

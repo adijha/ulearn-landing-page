@@ -6,6 +6,7 @@
 	.header-title {
 		color: #009dfe;
 		margin: 0;
+		font-size: 45px;
 	}
 	.header-wp-wrap {
 		display: flex;
@@ -45,11 +46,11 @@
 		padding-inline: 2rem;
 		justify-content: space-evenly;
 		.header-title {
-			flex: 20;
+			flex: 1;
 			text-align: center;
 		}
 		.header-wp-wrap {
-			flex: 1;
+			// flex: 1;
 			.flex-center {
 				display: inline-block;
 				.header-wp-img {
@@ -64,10 +65,10 @@
 			}
 		}
 		.header-drawer-img {
-			flex: 1;
-			display: inline-block;
-			object-fit: contain;
-			height: 40px;
+			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 	}
 }
