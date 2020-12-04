@@ -6,7 +6,6 @@ export default function Header() {
 	return (
 		<>
 			<div className="header-container">
-				{/* <img src={drawer} className="header-drawer-img" alt="drawer" /> */}
 				<div className="header-drawer-img"  >
 				<i  className=" fas fa-th-large fa-2x" ></i>
 
