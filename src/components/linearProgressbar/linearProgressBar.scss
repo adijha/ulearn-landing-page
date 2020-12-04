@@ -1,6 +1,7 @@
 .linear-progressbar {
 	display: flex;
-	margin: 7vw;
+	margin-inline: 7vw;
+	margin-top: 7vh;
 	.linear-progress {
 		border: 1px solid #eaebf7;
 		border-radius: 30px;
@@ -11,16 +12,13 @@
 		justify-content: center;
 		font-weight: bold;
 		margin-top: -10px;
-	}
-	.progress-hr {
-		border: 0.4px solid #eaebf7;
+		font-size: 20px;
 	}
 }
 @media only screen and (max-width: 768px) {
 	.linear-progressbar {
 		margin-block: 15vw;
 		align-items: center;
-		// padding-bottom: 50px;
 		overflow-x: scroll;
 
     &::-webkit-scrollbar {
@@ -28,14 +26,15 @@
     }
 		.linear-progress {
 			border: 1px solid #eaebf7;
-			border-radius: 70px;
-			height: 70px;
-			width: 70px;
+			border-radius: 90px;
+			height: 90px;
+			width: 90px;
 			margin-top: 0;
+		font-size: 30px;
+
 		}
 		.progress-hr {
-			border: 0.4px solid #eaebf7;
-			width: 30px;
+			width: 50px;
 		}
 		.linear-progress-desc {
 			display: none;
