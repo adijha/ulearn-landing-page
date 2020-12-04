@@ -1,14 +1,12 @@
 import React from "react";
-import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-
-const percentage = 2;
-
 export default function App() {
+	const percentage = 2;
 	return (
 		<div
 			style={{
-				height: "250px",
+				height: "290px",
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center",
@@ -20,13 +18,6 @@ export default function App() {
 				text={`L${percentage}`}
 				minValue={1}
 				maxValue={8}
-				// styles={buildStyles({
-				// 	textSize: "20px",
-				// 	pathColor: "#009dfe",
-				// 	textColor: "#009dfe",
-				// 	trailColor:  '#E4E7F6',
-
-				// })}
 				styles={{
 					trail: {
 						stroke: "#E4E7F6",
@@ -41,7 +32,7 @@ export default function App() {
 					},
 				}}
 			/>
-			<h2>مبتدئ 2</h2>
+			<h2 style={{ fontSize: "30px" }}>مبتدئ 2</h2>
 		</div>
 	);
 }
