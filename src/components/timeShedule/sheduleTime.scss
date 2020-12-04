@@ -1,9 +1,11 @@
 .shedule-container {
 	border: 1px solid #ededed;
-	margin-inline: 17vw;
+	margin-left: 17vw;
+	margin-right: 17vw;
 	border-radius: 10px;
 	position: relative;
-	margin-block: 70px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 
 	.shedule-up-padding {
 		background-color: #edeef7;
@@ -32,7 +34,8 @@
 		align-items: center;
 		justify-content: space-between;
 		background-color: #fafafd;
-		padding-inline: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 		margin: 20px;
 		border-radius: 10px;
 	}
@@ -51,7 +54,8 @@
 @media only screen and (max-width: 768px) {
 	.shedule-container {
 		padding-bottom: 100px;
-		margin-inline: 12vw;
+		margin-left: 12vw;
+		margin-right: 12vw;
 
 		.shedule-btn {
 			bottom: 20px;
