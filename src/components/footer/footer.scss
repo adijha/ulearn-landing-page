@@ -2,8 +2,10 @@
 	background-color: #1b1b1b;
 	display: flex;
 	justify-content: space-around;
-	padding-inline: 8vw;
-	padding-block: 2rem;
+	padding-left: 8vw;
+	padding-right: 8vw;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 
 	p,
 	h5,
@@ -84,9 +86,12 @@
 			.footer-social-icons {
 				display: flex;
 				justify-content: space-between;
-				min-width: 300px;
+				width: auto;
+				margin-left: -160px;
 				.fab {
 					font-size: 28px;
+					margin-left: 30px;
+					// margin-right: 20px;
 				}
 				margin-top: 60px;
 			}
@@ -95,7 +100,8 @@
 				width: auto;
 				justify-content: flex-end;
 				.footer-place {
-					margin-inline: 10px;
+					margin-left: 10px;
+					margin-right: 10px;
 					font-size: 20px;
 				}
 			}

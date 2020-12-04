@@ -9,14 +9,18 @@
 		// align-self: center;
 	}
 	.grid-image {
-		width: 65px;
-		height: 65px;
+		width: 80px;
+		height: 80px;
 		object-fit: contain;
 	}
 	.grid-desc {
 		color: rgb(103, 103, 103);
+		font-size: 20px;
 	}
 	.grid-title {
 		font-weight: 500;
+		font-size: 25px;
+		margin-bottom: 0;
+		line-height: 1;
 	}
 }
