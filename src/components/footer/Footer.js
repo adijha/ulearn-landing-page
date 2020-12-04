@@ -22,33 +22,33 @@ export default function Footer() {
 			<div className="footer-half">
 				<div className="footer-part-i">
 					<div className="footer-second">
-						<h5>قانون</h5>
-						<p>سياسة الخصوصية</p>
-						<p>شروط الاستخدام</p>
+						<h5 className="footer-row-title" >قانون</h5>
+						<p className='footer-p' >سياسة الخصوصية</p>
+						<p className='footer-p' >شروط الاستخدام</p>
 					</div>
 					<div className="footer-third">
-						<h5>طريقتنا بالتعلم</h5>
-						<p>مستويات اللغة</p>
-						<p>طرق التعلم</p>
-						<p>اختبار مستوى</p>
+						<h5 className="footer-row-title" >طريقتنا بالتعلم</h5>
+						<p className='footer-p' >مستويات اللغة</p>
+						<p className='footer-p' >طرق التعلم</p>
+						<p className='footer-p' >اختبار مستوى</p>
 					</div>
 				</div>
 				<div className="footer-part-ii">
 					<div className="footer-fourth">
-						<h5>اللغات</h5>
-						<p>الانجليزي</p>
-						<p>الفرنسي</p>
-						<p>الفرنسي</p>
-						<p>الفرنسي</p>
-						<p>آيلتس</p>
+						<h5 className="footer-row-title" >اللغات</h5>
+						<p className='footer-p' >الانجليزي</p>
+						<p className='footer-p' >الفرنسي</p>
+						<p className='footer-p' >الفرنسي</p>
+						<p className='footer-p' >الفرنسي</p>
+						<p className='footer-p' >آيلتس</p>
 					</div>
 					<div className="footer-fifth">
-						<h5>اللغات</h5>
-						<p>الانجليزي</p>
-						<p>مقالات</p>
-						<p>مقالات</p>
-						<p>اسئلة شائعة</p>
-						<p>الفرنسي</p>
+						<h5 className="footer-row-title" >اللغات</h5>
+						<p className='footer-p' >الانجليزي</p>
+						<p className='footer-p' >مقالات</p>
+						<p className='footer-p' >مقالات</p>
+						<p className='footer-p' >اسئلة شائعة</p>
+						<p className='footer-p' >الفرنسي</p>
 					</div>
 				</div>
 			</div>

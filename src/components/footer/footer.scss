@@ -6,6 +6,17 @@
 	padding-right: 8vw;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	h5,
+	.footer-row-title {
+		margin-bottom: 22px;
+		font-size: 24px;
+	}
+
+	p,
+	.footer-p {
+		line-height: 1;
+		font-size: 20px;
+	}
 
 	p,
 	h5,
@@ -13,16 +24,6 @@
 	.fab,
 	.fas {
 		color: #ffffff;
-	}
-
-	h5 {
-		margin-bottom: 22px;
-		font-size: 18px;
-	}
-
-	p {
-		line-height: 0.7;
-		font-size: 14px;
 	}
 
 	.footer-second,
