@@ -19,14 +19,14 @@
 	}
 	.shedule-btn {
 		background-color: #2faef9;
-		width: 100px;
+		width: 120px;
 		text-align: center;
 		color: #fff;
-		padding: 12px;
-		font-size: 20px;
+		padding: 14px;
+		font-size: 23px;
 		border-radius: 10px;
 		position: absolute;
-		top: 20px;
+		top: 31px;
 		left: 20px;
 	}
 	.shedule-time {
@@ -49,20 +49,29 @@
 		justify-content: flex-end;
 		margin: 20px;
 	}
+	.radio-btn {
+		width: 20px;
+		height: 20px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
 	.shedule-container {
-		padding-bottom: 100px;
+		padding-bottom: 120px;
 		margin-left: 12vw;
 		margin-right: 12vw;
-
+		overflow: hidden;
 		.shedule-btn {
 			bottom: 20px;
-			left: 20px;
-			right: 20px;
+			left: 5%;
+			right: 5%;
 			top: auto;
-			width: 83%;
+			width: 84%;
+			height: 50px;
+			font-size: 26px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
 		}
 	}
 }
