@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ulearn-landing-page/static/css/main.6a850ce4.chunk.css",
-    "main.js": "/ulearn-landing-page/static/js/main.00aa4f6d.chunk.js",
-    "main.js.map": "/ulearn-landing-page/static/js/main.00aa4f6d.chunk.js.map",
-    "runtime-main.js": "/ulearn-landing-page/static/js/runtime-main.598806e9.js",
-    "runtime-main.js.map": "/ulearn-landing-page/static/js/runtime-main.598806e9.js.map",
+    "main.css": "/ulearn-landing-page/static/css/main.cf324caf.chunk.css",
+    "main.js": "/ulearn-landing-page/static/js/main.46ce391b.chunk.js",
+    "main.js.map": "/ulearn-landing-page/static/js/main.46ce391b.chunk.js.map",
+    "runtime-main.js": "/ulearn-landing-page/static/js/runtime-main.0d23618e.js",
+    "runtime-main.js.map": "/ulearn-landing-page/static/js/runtime-main.0d23618e.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/ulearn-landing-page/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.79818d83.chunk.js": "/ulearn-landing-page/static/js/2.79818d83.chunk.js",
-    "static/js/2.79818d83.chunk.js.map": "/ulearn-landing-page/static/js/2.79818d83.chunk.js.map",
-    "static/js/3.4c06ef1e.chunk.js": "/ulearn-landing-page/static/js/3.4c06ef1e.chunk.js",
-    "static/js/3.4c06ef1e.chunk.js.map": "/ulearn-landing-page/static/js/3.4c06ef1e.chunk.js.map",
+    "static/js/2.c06ebcf6.chunk.js": "/ulearn-landing-page/static/js/2.c06ebcf6.chunk.js",
+    "static/js/2.c06ebcf6.chunk.js.map": "/ulearn-landing-page/static/js/2.c06ebcf6.chunk.js.map",
+    "static/js/3.6cf55a05.chunk.js": "/ulearn-landing-page/static/js/3.6cf55a05.chunk.js",
+    "static/js/3.6cf55a05.chunk.js.map": "/ulearn-landing-page/static/js/3.6cf55a05.chunk.js.map",
     "index.html": "/ulearn-landing-page/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/ulearn-landing-page/static/css/2.6c0f60ba.chunk.css.map",
-    "static/css/main.6a850ce4.chunk.css.map": "/ulearn-landing-page/static/css/main.6a850ce4.chunk.css.map",
-    "static/js/2.79818d83.chunk.js.LICENSE.txt": "/ulearn-landing-page/static/js/2.79818d83.chunk.js.LICENSE.txt",
+    "static/css/main.cf324caf.chunk.css.map": "/ulearn-landing-page/static/css/main.cf324caf.chunk.css.map",
+    "static/js/2.c06ebcf6.chunk.js.LICENSE.txt": "/ulearn-landing-page/static/js/2.c06ebcf6.chunk.js.LICENSE.txt",
     "static/media/badge.dc11ceec.png": "/ulearn-landing-page/static/media/badge.dc11ceec.png",
     "static/media/callToAction.scss": "/ulearn-landing-page/static/media/blue.3c712e11.png",
     "static/media/calendar.1b12bb70.png": "/ulearn-landing-page/static/media/calendar.1b12bb70.png",
@@ -21,10 +21,10 @@
     "static/media/whatsapp.d372df43.png": "/ulearn-landing-page/static/media/whatsapp.d372df43.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.598806e9.js",
+    "static/js/runtime-main.0d23618e.js",
     "static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.79818d83.chunk.js",
-    "static/css/main.6a850ce4.chunk.css",
-    "static/js/main.00aa4f6d.chunk.js"
+    "static/js/2.c06ebcf6.chunk.js",
+    "static/css/main.cf324caf.chunk.css",
+    "static/js/main.46ce391b.chunk.js"
   ]
 }
