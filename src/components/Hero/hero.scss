@@ -1,38 +1,42 @@
 .hero-container {
 	background-color: #f9f9fc;
 	text-align: center;
-	padding-block: 2.9rem;
-	margin-inline: 7vw;
-	padding-inline: 12vw;
+	padding-bottom: 2.9rem;
+	padding-top: 2.9rem;
+	margin-left: 7vw;
+	margin-right: 7vw;
+	padding-right: 12vw;
+	padding-left: 12vw;
 	.hero-header {
 		font-size: 30px;
-    line-height: 1.8;
+		line-height: 1.8;
 	}
 	.hero-title {
 		color: #009dfe;
 		font-size: 17px;
-		margin-block: 30px;
+		margin-top: 30px;
+		margin-bottom: 30px;
 	}
 	.hero-desc {
 		line-height: 2;
 		font-size: 17px;
-		padding-inline: 8vw;
+		padding-right: 8vw;
+		padding-left: 8vw;
 	}
 }
 @media only screen and (max-width: 768px) {
-  .hero-container {
-    margin-inline: 7vw;
-    .hero-title {
-      font-size: 18.5px;
-      line-height: 2;
-    }
-    .hero-desc {
-      line-height: 2.3;
-      font-size: 17.5px;
-      padding-inline: 0;
-    }
-  }
-
-
-
+	.hero-container {
+		margin-left: 7vw;
+		margin-right: 7vw;
+		.hero-title {
+			font-size: 18.5px;
+			line-height: 2;
+		}
+		.hero-desc {
+			line-height: 2.3;
+			font-size: 17.5px;
+			padding-right: 0;
+			padding-left: 0;
+		}
+	}
 }

@@ -1,10 +1,11 @@
 .calendar-card {
-	// box-shadow: 3px 3px 3px 3px #ededed;
 	display: flex;
 	justify-content: space-between;
-	margin-inline: 7vw;
+	margin-left: 7vw;
+	margin-right: 7vw;
 	padding-right: 2vw;
-	margin-block: 4rem;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
 	align-items: center;
 	border: 1.8px solid #ededed;
 	border-radius: 12px;
@@ -31,17 +32,18 @@
 		flex-direction: column-reverse;
 		.calendar-img {
 			height: 265px;
-		width: 90vw;
+			width: 90vw;
 		}
 		.calendar-text {
 			text-align: center;
-			padding-inline: 5vh;
+			padding-right: 5vh;
+			padding-left: 5vh;
 			.calendar-header {
 				font-size: 20px;
 			}
 			.calendar-desc {
-        font-size: 30px;
-        line-height: 1.6;
+				font-size: 30px;
+				line-height: 1.6;
 			}
 		}
 	}

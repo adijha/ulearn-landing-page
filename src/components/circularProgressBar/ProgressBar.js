@@ -10,7 +10,8 @@ export default function App() {
 				display: "flex",
 				flexDirection: "column",
 				alignItems: "center",
-				marginBlock: "4rem",
+				marginTop: "4rem",
+				marginBottom: "4rem",
 			}}
 		>
 			<CircularProgressbar
