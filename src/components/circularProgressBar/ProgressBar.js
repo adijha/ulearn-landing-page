@@ -20,11 +20,26 @@ export default function App() {
 				text={`L${percentage}`}
 				minValue={1}
 				maxValue={8}
-				styles={buildStyles({
-					textSize: "16px",
-					pathColor: "#009dfe",
-					textColor: "#009dfe",
-				})}
+				// styles={buildStyles({
+				// 	textSize: "20px",
+				// 	pathColor: "#009dfe",
+				// 	textColor: "#009dfe",
+				// 	trailColor:  '#E4E7F6',
+
+				// })}
+				styles={{
+					trail: {
+						stroke: "#E4E7F6",
+					},
+					text: {
+						fill: "#009dfe",
+						fontSize: "20px",
+						fontWeight: "bold",
+					},
+					background: {
+						fill: "#009dfe",
+					},
+				}}
 			/>
 			<h2>مبتدئ 2</h2>
 		</div>
